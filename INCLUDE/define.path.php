@@ -1,0 +1,5 @@
+<?php 
+define('CONTROLLER_PATH',MAIN_PATH.'CONTROLLER/');
+
+//VIEWS
+define('VIEW_PATH',MAIN_PATH.'VIEW/');

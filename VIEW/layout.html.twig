@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="windows-1252">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SIMPLE MVC</title>
+
+
+        
+	<!--STYLESHEET-->
+	<!--=================================================-->
+
+	<!--Open Sans Font [ OPTIONAL ] -->
+ 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
+
+
+	<!--Bootstrap Stylesheet [ REQUIRED ]-->
+	<link href="VIEW/INCLUDES/css/bootstrap.min.css" rel="stylesheet">
+
+
+	<!--Main Stylesheet [ REQUIRED ]-->
+	<link href="VIEW/INCLUDES/css/main.css" rel="stylesheet">
+
+
+	<!--Font Awesome [ OPTIONAL ]-->
+	<link href="VIEW/INCLUDES/css/font-awesome.min.css" rel="stylesheet">
+
+        
+
+</head>
+
+<body>
+
+        <!--CONTENT-->
+        <!--===================================================-->
+        <div>
+            {% block content %}   
+
+            {% endblock content %}
+        </div>
+        <!--===================================================-->
+        <!--END CONTAINER-->
+	
+	<!--JAVASCRIPT-->
+	<!--=================================================-->
+
+	<!--jQuery [ REQUIRED ]-->
+	<script src="VIEW/INCLUDES/js/jquery-2.1.1.min.js"></script>
+
+	<!--BootstrapJS [ RECOMMENDED ]-->
+	<script src="VIEW/INCLUDES/js/bootstrap.min.js"></script>
+	
+	<!--Main js [ RECOMMENDED ]-->
+	<script src="VIEW/INCLUDES/js/main.js"></script>
+
+</body>
+</html>

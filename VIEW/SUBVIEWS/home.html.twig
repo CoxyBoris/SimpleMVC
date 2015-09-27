@@ -1,0 +1,9 @@
+{% extends "layout.html.twig" %}
+    
+{%block content %}    
+    
+    {% for example in values['EXAMPLES'] %} 
+        {{example.get_m_firstname}} {{example.get_m_name}} : {{example.get_m_age}} <br>
+    {% endfor %} 
+    
+{% endblock content%}
