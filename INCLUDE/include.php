@@ -3,7 +3,7 @@ $GLOBAL_ARR_URL = explode(".",$_SERVER['HTTP_HOST']);
 $ext = end($GLOBAL_ARR_URL);
 
 //DEFINE YOUR MAIN SOURCES PATH
-define('MAIN_PATH',"/DEV_DATA_PERSO/SimpleMVC/");
+define('MAIN_PATH',"");
 
 require_once MAIN_PATH.'INCLUDE/global_constant.php';
 require_once MAIN_PATH.'INCLUDE/configDB.php';
